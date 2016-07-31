@@ -1,7 +1,8 @@
-package cc.ilvyou.service.business;
+package cc.ilvyou.service.business.Imp;
 
 import cc.ilvyou.dao.business.IUserDao;
 import cc.ilvyou.entity.business.User;
+import cc.ilvyou.service.business.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +12,7 @@ import java.io.Serializable;
  * Created by jiaweiluo on 16/7/31.
  */
 @Service
-public class UserServiceImp implements IUserService{
+public class UserServiceImp implements IUserService {
 
     @Autowired
     public IUserDao userDao;

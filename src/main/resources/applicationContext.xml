@@ -32,7 +32,7 @@
 		<property name="dataSource" ref="dataSource"/>
     </bean>
 
-    <bean id="userDao" class="cc.ilvyou.dao.business.UserDaoImp">
+    <bean id="userDao" class="cc.ilvyou.dao.business.Imp.UserDaoImp">
         <property name="dataSource"  ref="dataSource" />
     </bean>
     

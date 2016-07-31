@@ -49,4 +49,14 @@ public class JunitTest {
         System.out.println(user.getEmail());
     }
 
+    @Test
+    public void testUpdate(){
+        User user = new User();
+        user.setId(1);
+//        user.setName("ljw");
+//        user.setFullname("wjn");
+        user.setEmail("023894@qq.com");
+        userDao.update(user);
+    }
+
 }

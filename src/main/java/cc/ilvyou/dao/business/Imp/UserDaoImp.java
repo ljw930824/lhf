@@ -1,5 +1,6 @@
-package cc.ilvyou.dao.business;
+package cc.ilvyou.dao.business.Imp;
 
+import cc.ilvyou.dao.business.IUserDao;
 import cc.ilvyou.entity.business.User;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.support.JdbcDaoSupport;
