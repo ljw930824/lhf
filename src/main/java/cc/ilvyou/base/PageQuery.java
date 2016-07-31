@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Author: @author HYS . <br>
+ * Author: @author ljw . <br>
  * Date: 2015-9-13 上午10:28:44 . <br>
  * Function: 分页
  */
@@ -28,7 +28,7 @@ public class PageQuery<T> {
 	/**
 	 * @Fields : 每页显示数量
 	 */
-	private int limit = 7;
+	private int limit = 8;
 	/**
 	 * @Fields : 返回结果
 	 */
